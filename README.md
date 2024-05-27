@@ -11,17 +11,18 @@ Other related token standards include:
 
 ## Documentation
 
-ERC20   https://eips.ethereum.org/EIPS/eip-20
-ERC223  https://eips.ethereum.org/EIPS/eip-223
-ERC677  https://github.com/ethereum/EIPs/issues/677
-ERC1363 https://eips.ethereum.org/EIPS/eip-1363
-ERC777  https://eips.ethereum.org/EIPS/eip-777
+-   ERC20   https://eips.ethereum.org/EIPS/eip-20
+-   ERC223  https://eips.ethereum.org/EIPS/eip-223
+-   ERC677  https://github.com/ethereum/EIPs/issues/677
+-   ERC1363 https://eips.ethereum.org/EIPS/eip-1363
+-   ERC777  https://eips.ethereum.org/EIPS/eip-777
 
 ## Requirements
 
 To compile and run this code, you will need:
 [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), and
 [foundry](https://getfoundry.sh/)
+
 
 ## Libraries Required
 
@@ -30,6 +31,7 @@ forge install foundry-rs/forge-std --no-commit
 forge install OpenZeppelin/openzeppelin-contracts --no-commit
 
 ```
+
 ## Quickstart
 
 Clone to your local repo and build.
