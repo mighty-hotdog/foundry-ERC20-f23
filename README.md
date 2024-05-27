@@ -19,8 +19,8 @@ Other related token standards include:
 
 ## Requirements
 
-To compile and run this code, you will need:
-[git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), and
+To compile and run this code, you will need
+[git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and
 [foundry](https://getfoundry.sh/)
 
 
