@@ -1,14 +1,25 @@
 # Compiler files
 cache/
 out/
+.vscode
 
 # Ignores development broadcast logs
+broadcast/
 !/broadcast
 /broadcast/*/31337/
 /broadcast/**/dry-run/
+/broadcast/*/*/
 
 # Docs
 docs/
 
 # Dotenv file
-.env
+# .env
+
+# Dotpassword file
+.password
+
+# Libraries
+lib/
+
+# Notes/Scratchpads
