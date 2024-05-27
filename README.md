@@ -1,66 +1,40 @@
-## Foundry
+## ERC20
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+**An exploration of the ERC20 and several other related token standards.**
 
-Foundry consists of:
+Other related token standards include:
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+-   **ERC223**: Improvement on ERC20. Allows proper handling of incoming non-ERC20 tokens. But is ERC20 non-backward compatible.
+-   **ERC677**: Improvement on ERC20. Allows proper handling of incoming non-ERC20 tokens. Is ERC20 backward compatible.
+-   **ERC1363**: Formalized version of ERC677. With more functionality.
+-   **ERC777**: ~to be explored~
 
 ## Documentation
 
-https://book.getfoundry.sh/
+ERC20   https://eips.ethereum.org/EIPS/eip-20
+ERC223  https://eips.ethereum.org/EIPS/eip-223
+ERC677  https://github.com/ethereum/EIPs/issues/677
+ERC1363 https://eips.ethereum.org/EIPS/eip-1363
+ERC777  https://eips.ethereum.org/EIPS/eip-777
 
-## Usage
+## Requirements
 
-### Build
+To compile and run this code, you will need:
+[git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), and
+[foundry](https://getfoundry.sh/)
 
-```shell
-$ forge build
+## Libraries Required
+
 ```
+forge install foundry-rs/forge-std --no-commit
+forge install OpenZeppelin/openzeppelin-contracts --no-commit
 
-### Test
-
-```shell
-$ forge test
 ```
+## Quickstart
 
-### Format
-
-```shell
-$ forge fmt
+Clone to your local repo and build.
 ```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+git clone https://github.com/saracen75/foundry-ERC20-f23
+cd foundry-ERC20-f23
+forge build
 ```
