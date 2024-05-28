@@ -2,6 +2,9 @@
 
 **An exploration of the ERC20 and several other related token standards.**
 
+As part of the learning journey, some realworld tokens with specific uses/functionality will also be explored.
+eg: Link, Eth, Btc, Aero
+
 Other related token standards include:
 
 -   **ERC223**: Improvement on ERC20. Allows proper handling of incoming non-ERC20 tokens. But is ERC20 non-backward compatible.
