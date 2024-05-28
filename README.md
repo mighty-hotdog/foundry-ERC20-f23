@@ -10,7 +10,7 @@ Other related token standards include:
 -   **ERC223**: Improvement on ERC20. Allows proper handling of incoming non-ERC20 tokens. But is ERC20 non-backward compatible.
 -   **ERC677**: Improvement on ERC20. Allows proper handling of incoming non-ERC20 tokens. Is ERC20 backward compatible.
 -   **ERC1363**: Formalized version of ERC677. With more functionality.
--   **ERC777**: ~to be explored~
+-   **ERC777**: To be explored further.
 
 ## Documentation
 
